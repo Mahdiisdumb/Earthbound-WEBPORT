@@ -1,11 +1,19 @@
-<div style="width:640px;height:480px;max-width:100%">
-        <div id="game"></div>
-      </div>
-<script type="text/javascript">
-    EJS_player = '#game';
-    EJS_gameUrl = 'rom.sfc'; // Url to Game rom
-    EJS_core = 'snes';
-    EJS_mouse = false; // SNES Mouse
-    EJS_multitap = false; // SNES Multitap
-</script>
-<script src="loader.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <title>Mother 2 DELEUX</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="game-wrapper">
+    <div id="game"></div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="loader.js" defer></script>
+</body>
+</html>
